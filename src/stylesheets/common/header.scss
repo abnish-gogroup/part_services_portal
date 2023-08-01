@@ -1,0 +1,121 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header_container {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0px 0px 2px 0 #8692a6;
+  z-index: 40;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  position: sticky;
+  background-color: #fff;
+}
+
+.logo {
+  width: 167px;
+  height: 53px;
+  cursor: pointer;
+}
+
+.dh_flex {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.fs_12 {
+  font-size: 12px;
+}
+
+.pr_6 {
+  padding-right: 6px;
+}
+
+.pd_10 {
+  padding-left: 10px;
+}
+
+.parts_checker_text {
+  text-align: center;
+  font-size: 18px;
+  flex: auto;
+  font-weight: 500;
+  padding-left: 10%;
+}
+
+.red_label {
+  position: relative;
+  height: 16px;
+  width: 16px;
+  left: 10px;
+  top: -12px;
+  background-color: #d72525;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.badge_number {
+  position: relative;
+  top: 2px;
+  left: 3px;
+}
+
+.dropbtn {
+  background-color: #fff;
+  color: #262626;
+  padding: 1px 20px;
+  margin: 0 20px 0 15px;
+  font-size: 16px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: 14px;
+}
+
+.cp {
+  cursor: pointer;
+}
+
+.dropdown-content>.ddc {
+  color: black;
+  padding: 7px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+}
+
+.dropdown-content>.ddc:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #ddd;
+}
+
+.pd_1 {
+  padding: 0 10px 1px 0;
+}
